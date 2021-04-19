@@ -1,14 +1,16 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package es.samfc.caso1unidad7.common;
 
 /**
- *
- * @author samue
- */
+* Clase de coches.
+* 
+* Esta clase nos servira para definir los metodos
+* y atributos que tendran los tipos de coches en comun
+* 
+* @see CocheKm0
+* @see CocheNuevo
+* @see CocheSegundaMano
+* @author Samuel Fernandez Cardenas
+*/
 public class Coche {
     
     private String matricula;
@@ -17,8 +19,6 @@ public class Coche {
 
     /**
      * Constructor de la clase Coche.
-     * Esta clase nos servira para definir los metodos
-     * y atributos que tendran los tipos de coches en comun
      * 
      * @param matricula Matricula que tendra el coche
      * @param modelo Modelo del coche
