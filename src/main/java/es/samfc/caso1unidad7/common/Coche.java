@@ -46,6 +46,8 @@ public class Coche {
     }
     
     public void visualizar(){
+        System.out.println("");
+        System.out.println("====================================");
         System.out.println("Tipo de vehiculo: " + this.getClass().getSimpleName());
         System.out.println("Matricula: " + getMatricula());
         System.out.println("Modelo: " + getModelo());
